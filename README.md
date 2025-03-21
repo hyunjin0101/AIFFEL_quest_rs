@@ -1,3 +1,4 @@
+```bash
 AIFFEL_quest__rs/
 ├── Exploration
 │   ├── Ex01
@@ -48,3 +49,4 @@ AIFFEL_quest__rs/
 │   │   └── README.md
 │   └── README.md
 └── README.md
+```
