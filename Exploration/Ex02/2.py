@@ -180,7 +180,7 @@ def save_submission(model, train, y, test, model_name, rmsle=None):
     submission.to_csv(submission_csv_path, index=False)  # [4]
     print(f'{submission_csv_path} saved!')
 
-for model_info in models:
-    model = model_info['model']
-    name = model_info['name'].lower()  # LightGBM → lightgbm
-    save_submission(model, x, y, sub, name, '0.164399')
+#for model_info in models:
+ #   model = model_info['model']
+  #  name = model_info['name'].lower()  # LightGBM → lightgbm
+   # save_submission(model, x, y, sub, name, '0.164399')
