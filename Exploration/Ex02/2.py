@@ -125,21 +125,6 @@ def get_scores(models, train, y):
 
 from sklearn.model_selection import GridSearchCV
 
-
-def my_GridSearch(model, train, y, param_grid, verbose=2, n_jobs=5):
-    grid_model = GridSearchCV(model, param_grid=param_grid, \
-                            scoring='neg_mean_squared_error', \
-                            cv=5, verbose=2, n_jobs=5)
-    grid_model.fit(train, y)
-    params = grid_model.cv_results_['params']
-    score = grid_model.cv_results_['mean_test_score']
-
-    results = pd.DataFrame(params)
-    results['score'] = score
-
-    results['RMSE'] = np.sqrt(-1 * results['score']).sort_values
-    return(results)
-
 def my_GridSearch(model, train, y, param_grid, verbose=2, n_jobs=5):
     grid_model = GridSearchCV(
         model, 
@@ -180,7 +165,5 @@ def save_submission(model, train, y, test, model_name, rmsle=None):
     submission.to_csv(submission_csv_path, index=False)  # [4]
     print(f'{submission_csv_path} saved!')
 
-#for model_info in models:
- #   model = model_info['model']
-  #  name = model_info['name'].lower()  # LightGBM → lightgbm
-   # save_submission(model, x, y, sub, name, '0.164399')
+
+save_submission(model, x, y, sub, name, '0.164399')
