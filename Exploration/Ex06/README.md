@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7f3ebd16-7092-41a4-be8f-2139f8d0fb03)![image](https://github.com/user-attachments/assets/d2860590-a47d-4aa4-b4ab-0949f49c8a3a)# AIFFEL Campus Online Code Peer Review Templete
+# AIFFEL Campus Online Code Peer Review Templete
 - 코더 : 김현진
 - 리뷰어 : 박민경
 
