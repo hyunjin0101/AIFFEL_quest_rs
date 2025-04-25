@@ -11,9 +11,8 @@
     - 트랜스포머 모델 한국어 챗봇   
       ![image](https://github.com/user-attachments/assets/fa1dde59-a18c-4dd1-8365-8b6f49ffffe3)   
       ![image](https://github.com/user-attachments/assets/e161dcea-5f8c-44ba-9e83-d69becd16b3a)
-    - 한국어 답변 함수 구현   (일부 답변에서는 정상적인 답변. 의미
-      ![image](https://github.com/user-attachments/assets/f5d66b33-3bd0-4e31-a503-de00bb9bb62e)   
-
+    - 한국어 답변 함수 구현   (일부 답변에서는 정상적인 답변. 문장구조가 이상한 답변이 있는 점은 아쉬움)
+      ![image](https://github.com/user-attachments/assets/7990fa14-c896-4e7f-b48b-1644d7ea4bda)
     
 - [ ]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
