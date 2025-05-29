@@ -9,6 +9,7 @@
         - 중요! 해당 조건을 만족하는 부분을 캡쳐해 근거로 첨부
         >U-NET모델
         ![1.-1](Peer_Review_Image/1.-1.png)
+        
         >U-NET++모델
         ![1.-2](Peer_Review_Image/1.-2.png)
         ![1.-3](Peer_Review_Image/1.-3.png)
